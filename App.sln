@@ -3,6 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+<<<<<<< HEAD
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{12274551-BFB7-4FA7-9F4F-282C25D3CF1F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "src\WebApi\WebApi.csproj", "{3A6FC512-54BB-4B14-996F-7CDD8B45196A}"
@@ -10,6 +11,15 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8E56B499-336B-4D0A-8B74-786B65B64343}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiTests", "test\WebApiTests\WebApiTests.csproj", "{81392863-134A-4EDB-A7CD-6A9A42F52392}"
+=======
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{43FA1F75-16F2-40F7-80EA-EFA0C2EEEB7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "src\WebApi\WebApi.csproj", "{72DD5290-E5DF-4502-8281-11D8FFA3CD20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6AC631DC-7976-43BF-82A2-DAF12A245FFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiTests", "test\WebApiTests\WebApiTests.csproj", "{F15FA0C2-D92E-4674-A95A-117A1DB4FD5E}"
+>>>>>>> af15366aab10ec0ecfc6b2a8d34851cfaa0b2ff1
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +30,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+<<<<<<< HEAD
 		{3A6FC512-54BB-4B14-996F-7CDD8B45196A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3A6FC512-54BB-4B14-996F-7CDD8B45196A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A6FC512-54BB-4B14-996F-7CDD8B45196A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -32,5 +43,19 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{3A6FC512-54BB-4B14-996F-7CDD8B45196A} = {12274551-BFB7-4FA7-9F4F-282C25D3CF1F}
 		{81392863-134A-4EDB-A7CD-6A9A42F52392} = {8E56B499-336B-4D0A-8B74-786B65B64343}
+=======
+		{72DD5290-E5DF-4502-8281-11D8FFA3CD20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72DD5290-E5DF-4502-8281-11D8FFA3CD20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72DD5290-E5DF-4502-8281-11D8FFA3CD20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72DD5290-E5DF-4502-8281-11D8FFA3CD20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F15FA0C2-D92E-4674-A95A-117A1DB4FD5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F15FA0C2-D92E-4674-A95A-117A1DB4FD5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F15FA0C2-D92E-4674-A95A-117A1DB4FD5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F15FA0C2-D92E-4674-A95A-117A1DB4FD5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{72DD5290-E5DF-4502-8281-11D8FFA3CD20} = {43FA1F75-16F2-40F7-80EA-EFA0C2EEEB7D}
+		{F15FA0C2-D92E-4674-A95A-117A1DB4FD5E} = {6AC631DC-7976-43BF-82A2-DAF12A245FFF}
+>>>>>>> af15366aab10ec0ecfc6b2a8d34851cfaa0b2ff1
 	EndGlobalSection
 EndGlobal
